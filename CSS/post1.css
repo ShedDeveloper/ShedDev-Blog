@@ -1,0 +1,38 @@
+
+body{
+    background-color: #909CC2;
+}
+
+.post-body{
+    background-color: #F9AB55;
+    
+    border-radius: 10px;
+    border: 3px solid #084887;
+
+    padding: 20px;
+    
+    display: grid;
+    place-items: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 30px;
+  
+}
+.nav-button{
+    color: #F7F5FB;
+    text-shadow: 2px 2px 5px #000000;
+    font-size: 20px;
+    background-color: #F9AB55;
+    border-radius: 10px;
+    border: 3px solid #084887;
+    margin-left: 25%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    transition: transform 0.3s ease-out;
+}
+.nav-button:hover{
+    
+    
+    transform: translateY(-3px) scale(1.2);
+    will-change: transform;
+}
